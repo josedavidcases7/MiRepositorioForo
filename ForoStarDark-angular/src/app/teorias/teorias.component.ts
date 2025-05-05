@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { ActualizacionesComponent } from '../actualizaciones/actualizaciones.component';
 import { PublicacionesTeoriasComponent } from '../publicaciones-teorias/publicaciones-teorias.component';
 @Component({
   selector: 'app-teorias',
-  imports: [PublicacionesTeoriasComponent,ActualizacionesComponent],
+  imports: [PublicacionesTeoriasComponent],
   templateUrl: './teorias.component.html',
   styleUrl: './teorias.component.scss'
 })

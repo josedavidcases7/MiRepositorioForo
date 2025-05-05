@@ -45,9 +45,8 @@ export class AuthService {
 
   // Obtener nombre de usuario desde localStorage
   getUsername(): string | null {
-    return localStorage.getItem('username'); // Verifica que 'username' esté bien configurado en localStorage
+    return localStorage.getItem('username');
   }
-  
 
   // Guardar avatar en localStorage
   setAvatar(avatarUrl: string): void {
@@ -90,8 +89,6 @@ export class AuthService {
     localStorage.setItem(section, JSON.stringify(publicaciones));
   }
 
-
-  
   // Función para cargar publicaciones desde la sección correspondiente
   getPublicationsBySection(section: string) {
     return JSON.parse(localStorage.getItem(section) || '[]');

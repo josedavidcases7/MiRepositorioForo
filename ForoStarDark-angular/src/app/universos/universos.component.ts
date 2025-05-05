@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { ActualizacionesComponent } from '../actualizaciones/actualizaciones.component';
 import { PublicacionesUniversosComponent } from '../publicaciones-universos/publicaciones-universos.component';
 @Component({
   selector: 'app-universos',
-  imports: [PublicacionesUniversosComponent,ActualizacionesComponent],
+  imports: [PublicacionesUniversosComponent],
   templateUrl: './universos.component.html',
   styleUrl: './universos.component.scss'
 })
